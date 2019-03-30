@@ -4,12 +4,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="Images/" type="image/x-icon">
+    <link rel="shortcut icon" href="Images/Whitney-Houston-Sketch.jpg">
     <link rel="stylesheet" href="CSS/style.css">
-    <script src="Scripts/main.js"></script>
+    <script src="Scripts/main.js" defer></script>
     <title>Whitney Houston</title>
 </head>
-<body>
+<body onresize="videoResize();">
+
+    <div id="content">
+
+        <div id="wallPaper">
+            <img class="banner" src="Images/whitney-houston-horizontal-image.jpg"  alt="WHH Wall Image" >
+        </div>
+        
+
+        <!-- <div id="complex-navbar"> -->
+            <div id="navbar">
+                <li><a onclick="openTNav()">Menu</a></li>
+                <li><a href="#wallPaper">Whitney Houston</a></li>
+                <li><a onclick="openSNav()">Songbar</a></li>   
+            </div>
+
+            <div id="taskbar" class="bar">
+                <a class="closebtn" onclick="closeTNav()">&times;</a>
+                <li><a href="#about-Whitney">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#albums">Albums</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+
+            <div id="songbar" class="bar">
+                <a class="closebtn" onclick="closeSNav()">&times;</a>
+                <li> I Will Always Love You
+                    <audio controls>
+                        <source src="Resources/Songs/Whitney Houston - I Will Always Love You.mp3" type="audio/mpeg">
+                    </audio>
+                </li>
+                <li> Saving All My Love for You
+                    <audio controls>
+                        <source src="Resources/Songs/Whitney Houston - Saving All My Love for You.mp3" type="audio/mpeg">
+                    </audio>
+                </li>
+                <li> I have Nothing
+                    <audio controls>
+                        <source src="Resources/Songs/Whitney Houston - I Have Nothing.mp3" type="audio/mpeg">
+                    </audio>
+                </li>
+                <li> I Wanna Dance with Somebody
+                    <audio controls>
+                        <source src="Resources/Songs/Whitney Houston - I Wanna Dance With Somebody.mp3" type="audio/mpeg">
+                    </audio>
+                </li>
+            </div>
+
+        <!-- </div> -->
+        
+        <div id="page-content">
+
+            <div id="about-Whitney">
+                <h1 id="about-title">About Whitney</h1>
+                <p id="about-text">
+                    Whitney Elizabeth Houston (August 9, 1963 – February 11, 2012) was an American singer and actress. 
+                    She was cited as the most awarded female artist of all time by Guinness World Records and remains 
+                    one of the best-selling music artists of all time with 200 million records sold worldwide. 
+                    She released seven studio albums and two soundtrack albums, all of which have been certified diamond, 
+                    multi-platinum, platinum, or gold by the Recording Industry Association of America (RIAA). 
+                    Houston's crossover appeal on the popular music charts—as well as her prominence on MTV, starting with 
+                    her video for "How Will I Know"—influenced several African-American women artists who followed in her 
+                    footsteps. 
+                </p>
+            </div>
+
+            <div id="gallery-color">
+            <h1 id="gallery-title">Gallery</h1>
+            <div id="gallery">
+                <div class="gallery">
+                    <a target="_blank" href="Images/Gallery Images/Gimg_1.jpg">
+                        <img src="Images/Gallery Images/Gimg_1.jpg" alt="Whitney_1" width="600" height="400">
+                    </a>
+                    <div class="desc">Image of Whitney Houston above.</div>
+                </div>
+                
+                <div class="gallery">
+                    <a target="_blank" href="Images/Gallery Images/Gimg_2.jpg">
+                        <img src="Images/Gallery Images/Gimg_2.jpg" alt="Whitney_2" width="600" height="400">
+                    </a>
+                <div class="desc">Image of Whitney Houston above.</div>
+                </div>
+                
+                <div class="gallery">
+                    <a target="_blank" href="Images/Gallery Images/Gimg_3.jpg">
+                        <img src="Images/Gallery Images/Gimg_3.jpg" alt="Whitney_3" width="600" height="400">
+                    </a>
+                <div class="desc">Image of Whitney Houston above.</div>
+                </div>
+                
+                <div class="gallery">
+                    <a target="_blank" href="Images/Gallery Images/Gimg_4.jpg">
+                        <img src="Images/Gallery Images/Gimg_4.jpg" alt="Whitney_4" width="600" height="400">
+                    </a>
+                <div class="desc">Image of Whitney Houston above.</div>
+                </div>
+
+                <div class="gallery">
+                    <a target="_blank" href="Images/Gallery Images/Gimg_5.jpg">
+                        <img src="Images/Gallery Images/Gimg_5.jpg" alt="Whitney_5" width="600" height="400">
+                    </a>
+                <div class="desc">Image of Whitney Houston above.</div>
+                </div>
+
+                <div class="gallery">
+                        <a target="_blank" href="Images/Gallery Images/Gimg_6.jpg">
+                            <img src="Images/Gallery Images/Gimg_6.jpg" alt="Whitney_5" width="600" height="400">
+                        </a>
+                <div class="desc">Image of Whitney Houston above.</div>
+                </div>
+
+                <div class="gallery">
+                        <a target="_blank" href="Images/Gallery Images/Gimg_7.jpg">
+                            <img src="Images/Gallery Images/Gimg_7.jpg" alt="Whitney_5" width="600" height="400">
+                        </a>
+                <div class="desc">Image of Whitney Houston above.</div>
+                </div>
+
+                <div class="gallery">
+                        <a target="_blank" href="Images/Gallery Images/Gimg_8.jpg">
+                            <img src="Images/Gallery Images/Gimg_8.jpg" alt="Whitney_5" width="600" height="400">
+                        </a>
+                <div class="desc">Image of Whitney Houston above.</div>
+                </div>
+
+                <div class="gallery">
+                        <a target="_blank" href="Images/Gallery Images/Gimg_9.jpg">
+                            <img src="Images/Gallery Images/Gimg_9.jpg" alt="Whitney_5" width="600" height="400">
+                        </a>
+                <div class="desc">Image of Whitney Houston above.</div>
+                </div>
+            </div>
+            </div>
+
+            <h1 id="video-title">Miracle -Whitney</h1>
+            <div id="video">   
+                <video width="640" height="480" controls>
+                    <source src="Resources/Whitney Houston - Miracle (Official Music Video).mp4" type="video/mp4">
+                    Your browser does not support the video.
+            </video>
+
+            </div>
+            <div id="albums">
+
+            </div>
+            
+        </div>
+
+        
+    </div>
+
+    <footer>
+        <p>All Information is cited<a href="https://en.wikipedia.org/wiki/Whitney_Houston"> here.</a> I do 
+        not have any ties to the family of Whitney Houston</p>
+        <div id="contact">
+            <a href="mailto:ddixon19@avenues.org?Subject=Whitney%20Houston%20Website%20Inquiry" target="_top">Contact</a>
+        </div>
+    </footer>
     
 </body>
 </html>
