@@ -1,26 +1,6 @@
 // alert("Problem?");
 
 
-// //Sticky Nav bar code
-// window.onscroll = function() {stickyFunc()};
-
-// // Get the navbar
-// var navbar = document.getElementById("navbar");
-
-// // Get the offset position of the navbar
-// var sticky = navbar.offsetTop;
-
-
-// // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-// function stickyFunc() {
-//   if (window.pageYOffset >= sticky) {
-//     navbar.classList.add("sticky")
-//   } else {
-//     navbar.classList.remove("sticky");
-//   }
-// }
-
-
 //Task Bar Nav
 function openTNav() {
     document.getElementById("taskbar").style.width = "250px";
@@ -44,15 +24,15 @@ function closeSNav() {
 
 
 
-//Resize video Function
+//Resize Function
 
-// Get the video
+// Get the video/ wallpaper
 var video = document.getElementsByTagName("video")[0];
 var wallpaper = document.getElementsByTagName("img")[0];
 console.log(wallpaper);
 
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+// Change image and resize video
 function videoResize() {
   if (window.innerWidth <= 600) {
     video.width = 320;

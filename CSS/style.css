@@ -63,7 +63,7 @@ img {
         width: 100%;
       } */
 
-    a{
+    li a{
         text-decoration: none;
         color: black; 
         font-family: specialfont;
@@ -145,6 +145,7 @@ img {
     #about-title{
         padding-top: 5%;
         padding-left: 5%;
+        font-family: specialfont;
     }
     #about-text{
         padding-left: 15%;
@@ -154,7 +155,7 @@ img {
         font-family: cursive;
 }
 
-/* Gallery */
+/* Album Gallery */
     div.gallery {
         margin: 5px;
         border: 1px solid #ccc;
@@ -172,6 +173,7 @@ img {
     #gallery-title{
         padding-top: 2%;
         padding-left: 5%;
+        font-family: specialfont;
     }
     #gallery{
         display: flex;
@@ -196,23 +198,55 @@ img {
     #video-title{
         padding-top: 5%;
         padding-left: 5%;
+        font-family: specialfont;
 }
 
 
 
 /* Contact/ Footer */
-footer{
-    background-image: linear-gradient(rgb(228, 228, 228), rgb(41, 41, 41));
-    height: 225px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
+    footer{
+        background-image: linear-gradient(rgb(228, 228, 228), rgb(41, 41, 41));
+        height: 225px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
 
-footer p{
-    margin: 0;
-}
+    footer p{
+        margin: 0;
+        padding-left: 1%;
+        font-family: cursive;
+    }
 
+    #contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #contact a{
+        text-decoration: none;
+        color: black; 
+        font-family: specialfont;
+        font-size: 60px;
+        cursor: pointer;
+    }
+
+    p a{
+        text-decoration: none;
+        color: black; 
+        font-family: specialfont;
+        font-size: 100%;
+        cursor: pointer;
+    }
+
+    p a:hover{
+        color: #303030;
+    }
+
+    #contact a:hover{
+        color: #303030;
+}
 
 
