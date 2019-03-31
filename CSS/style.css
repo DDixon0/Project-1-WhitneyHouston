@@ -193,18 +193,18 @@ img {
         display: flex;
         flex-wrap: wrap;
         padding: 0 4px;
+        justify-content:space-around;
     }
 
     /* Create three equal columns that sits next to each other */
     .column {
         flex: 33%;
-        width: 33%;
-        padding: 0 4px;
+        max-width: 32%;
     }
 
     .column img {
         margin-top: 8px;
-        vertical-align: middle;
+        vertical-align: 33%;
         width: 100%
     }
     
