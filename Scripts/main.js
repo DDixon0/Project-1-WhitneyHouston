@@ -3,7 +3,7 @@
 
 //Task Bar Nav
 function openTNav() {
-    document.getElementById("taskbar").style.width = "250px";
+    document.getElementById("taskbar").style.width = "300px";
 }
 
 function closeTNav() {
@@ -14,7 +14,7 @@ function closeTNav() {
 
 //Song Bar Nav
 function openSNav() {
-    document.getElementById("songbar").style.width = "250px";
+    document.getElementById("songbar").style.width = "300px";
 }
 
 function closeSNav() {

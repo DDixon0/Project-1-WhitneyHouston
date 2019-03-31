@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="Images/Whitney-Houston-Sketch.jpg">
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="Scripts/main.js" defer></script>
     <title>Whitney Houston</title>
 </head>
@@ -17,25 +18,25 @@
             <img class="banner" src="Images/whitney-houston-horizontal-image.jpg"  alt="WHH Wall Image" >
         </div>
         
-
         <!-- <div id="complex-navbar"> -->
-            <div id="navbar">
-                <li><a onclick="openTNav()">Menu</a></li>
-                <li><a href="#wallPaper">Whitney Houston</a></li>
-                <li><a onclick="openSNav()">Songbar</a></li>   
-            </div>
+        <div id="navbar">
+            <li><a onclick="openTNav()">Menu</a></li>
+            <li><a href="#wallPaper">Whitney Houston</a></li>
+            <li><a onclick="openSNav()">Songbar</a></li>   
+        </div>
 
-            <div id="taskbar" class="bar">
-                <a class="closebtn" onclick="closeTNav()">&times;</a>
-                <li><a href="#about-Whitney">About</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#video">Video</a></li>
-                <li><a href="#albums">Albums</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </div>
+        <div id="taskbar" class="bar">
+            <a class="closebtn" onclick="closeTNav()">&times;</a>
+            <li><a href="#about-Whitney" onclick="closeTNav()">About</a></li>
+            <li><a href="#albums" onclick="closeTNav()">Albums</a></li>
+            <li><a href="#gallery" onclick="closeTNav()">Gallery</a></li>
+            <li><a href="#video" onclick="closeTNav()">Video</a></li>
+            <li><a href="#contact" onclick="closeTNav()">Contact</a></li>
+        </div>
 
-            <div id="songbar" class="bar">
-                <a class="closebtn" onclick="closeSNav()">&times;</a>
+        <div id="songbar" class="bar">
+            <a class="closebtn" onclick="closeSNav()">&times;</a>
+            <div>
                 <li> I Will Always Love You
                     <audio controls>
                         <source src="Resources/Songs/Whitney Houston - I Will Always Love You.mp3" type="audio/mpeg">
@@ -57,6 +58,7 @@
                     </audio>
                 </li>
             </div>
+        </div>
 
         <!-- </div> -->
         
@@ -76,52 +78,52 @@
                 </p>
             </div>
 
-            <div id="gallery-color">
-            <h1 id="gallery-title">Albums</h1>
-            <div id="gallery">
-                <div class="gallery">
+            <div id="album-color">
+            <h1 id="album-title">Albums</h1>
+            <div id="albums">
+                <div class="album">
                     <a target="_blank" href="https://en.wikipedia.org/wiki/Whitney_Houston_(album)">
                         <img src="Images/album Images/alb_1.jpg" alt="Whitney_1" width="600" height="400">
                     </a>
                     <div class="desc">Whitney Houston 02/14/1985</div>
                 </div>
                 
-                <div class="gallery">
+                <div class="album">
                     <a target="_blank" href="https://en.wikipedia.org/wiki/Whitney_(album)">
                         <img src="Images/album Images/alb_2.jpg" alt="Whitney_2" width="600" height="400">
                     </a>
                 <div class="desc">Whitney 06/02/1987.</div>
                 </div>
                 
-                <div class="gallery">
+                <div class="album">
                     <a target="_blank" href="https://en.wikipedia.org/wiki/I%27m_Your_Baby_Tonight">
                         <img src="Images/album Images/alb_3.jpg" alt="Whitney_3" width="600" height="400">
                     </a>
                 <div class="desc">I'm Your Baby Tonight 11/04/1990</div>
                 </div>
                 
-                <div class="gallery">
+                <div class="album">
                     <a target="_blank" href="https://en.wikipedia.org/wiki/My_Love_Is_Your_Love">
                         <img src="Images/album Images/alb_4.jpg" alt="Whitney_4" width="600" height="400">
                     </a>
                 <div class="desc">My Love is Your Love 11/17/1998</div>
                 </div>
 
-                <div class="gallery">
+                <div class="album">
                     <a target="_blank" href="https://en.wikipedia.org/wiki/Just_Whitney">
                         <img src="Images/album Images/alb_5.jpg" alt="Whitney_5" width="600" height="400">
                     </a>
                 <div class="desc">Just Whitney 12/10/2002</div>
                 </div>
 
-                <div class="gallery">
+                <div class="album">
                         <a target="_blank" href="https://en.wikipedia.org/wiki/One_Wish:_The_Holiday_Album">
                             <img src="Images/album Images/alb_6.jpg" alt="Whitney_5" width="600" height="400">
                         </a>
                 <div class="desc">One Wish: The Holiday Album 11/18/2003</div>
                 </div>
 
-                <div class="gallery">
+                <div class="album">
                         <a target="_blank" href="https://en.wikipedia.org/wiki/I_Look_to_You">
                             <img src="Images/album Images/alb_7.jpg" alt="Whitney_5" width="600" height="400">
                         </a>
@@ -130,26 +132,46 @@
             </div>
             </div>
 
+            <div id="gallery">
+                <h1 id="gallery-title">Gallery</h1>
+                <div class="row">
+                    <div class="column"> 
+                        <img src="Images/Gallery Images/Gimg_7.jpg" class="gimg" alt="">
+                        <img src="Images/Gallery Images/Gimg_3.jpg" class="gimg" alt="">
+                        <img src="Images/Gallery Images/Gimg_4.jpg" class="gimg" alt="">
+                    </div>
+                    <div class="column">
+                        <img src="Images/Gallery Images/Gimg_1.jpg" class="gimg" alt="">
+                        <img src="Images/Gallery Images/Gimg_9.jpg" class="gimg" alt="">
+                        <img src="Images/Gallery Images/Gimg_6.jpg" class="gimg" alt="">
+                    </div>
+                    <div class="column"> 
+                        <img src="Images/Gallery Images/Gimg_5.jpg" class="gimg" alt=""> 
+                        <img src="Images/Gallery Images/Gimg_2.jpg" class="gimg" alt="">
+                        <img src="Images/Gallery Images/Gimg_8.jpg" class="gimg" alt="">
+                    </div>
+                </div>
+    
+            </div>
+
             <h1 id="video-title">Miracle -Whitney</h1>
             <div id="video">   
                 <video width="640" height="480" controls>
                     <source src="Resources/Whitney Houston - Miracle (Official Music Video).mp4" type="video/mp4">
                     Your browser does not support the video.
-            </video>
-
+                </video>
             </div>
-            <div id="albums">
 
-            </div>
             
         </div>
-
-        
+    
     </div>
 
     <footer>
-        <p>All information is cited<a href="https://en.wikipedia.org/wiki/Whitney_Houston"> here.</a> I do 
-        not have any ties to the family of Whitney Houston</p>
+        <div>
+            <p>All information is cited<a href="https://en.wikipedia.org/wiki/Whitney_Houston"> here.</a> I do 
+                not have any ties to the family of Whitney Houston</p>
+        </div>
         <div id="contact">
             <a href="mailto:ddixon19@avenues.org?Subject=Whitney%20Houston%20Website%20Inquiry" target="_top">Contact</a>
         </div>
