@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="Images/Whitney-Houston-Sketch.jpg">
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="Scripts/main.js" defer></script>
     <title>Whitney Houston</title>
 </head>
@@ -18,13 +17,14 @@
             <img class="banner" src="Images/whitney-houston-horizontal-image.jpg"  alt="WHH Wall Image" >
         </div>
         
-        <!-- <div id="complex-navbar"> -->
+        <!-- Navbar. Sticky navbar only works if the div is directly underneath the content div. -->
         <div id="navbar">
             <li><a onclick="openTNav()">Menu</a></li>
             <li><a href="#wallPaper">Whitney Houston</a></li>
             <li><a onclick="openSNav()">Songbar</a></li>   
         </div>
 
+        <!-- Task Bar for navigating website. -->
         <div id="taskbar" class="bar">
             <a class="closebtn" onclick="closeTNav()">&times;</a>
             <li><a href="#about-Whitney" onclick="closeTNav()">About</a></li>
@@ -32,8 +32,10 @@
             <li><a href="#gallery" onclick="closeTNav()">Gallery</a></li>
             <li><a href="#video" onclick="closeTNav()">Video</a></li>
             <li><a href="#contact" onclick="closeTNav()">Contact</a></li>
+            <!-- I could replace on-click with event listener, this way is faster. -->
         </div>
 
+        <!-- Songbar for choosing and playing songs. -->
         <div id="songbar" class="bar">
             <a class="closebtn" onclick="closeSNav()">&times;</a>
             <div>
@@ -60,10 +62,10 @@
             </div>
         </div>
 
-        <!-- </div> -->
         
         <div id="page-content">
 
+            <!-- About Section -->
             <div id="about-Whitney">
                 <h1 id="about-title">About Whitney</h1>
                 <p id="about-text">
@@ -78,8 +80,9 @@
                 </p>
             </div>
 
-            <div id="album-color">
-            <h1 id="album-title">Albums</h1>
+            <!-- Albums Section -->
+            <div id="album-color"> <!-- Needed for dotted Border--> 
+            <h1 id="album-title">Albums</h1> 
             <div id="albums">
                 <div class="album">
                     <a target="_blank" href="https://en.wikipedia.org/wiki/Whitney_Houston_(album)">
@@ -132,10 +135,11 @@
             </div>
             </div>
 
+            <!-- Gallery Section -->
             <div id="gallery">
                 <h1 id="gallery-title">Gallery</h1>
                 <div class="row">
-                    <div class="column"> 
+                    <div class="column"> <!-- Seperate into three different columns -->
                         <img src="Images/Gallery Images/Gimg_7.jpg" class="gimg" alt="">
                         <img src="Images/Gallery Images/Gimg_3.jpg" class="gimg" alt="">
                         <img src="Images/Gallery Images/Gimg_4.jpg" class="gimg" alt="">
@@ -151,9 +155,9 @@
                         <img src="Images/Gallery Images/Gimg_8.jpg" class="gimg" alt="">
                     </div>
                 </div>
-    
             </div>
 
+            <!-- Video Section -->
             <h1 id="video-title">Miracle -Whitney</h1>
             <div id="video">   
                 <video width="640" height="480" controls>
@@ -162,11 +166,11 @@
                 </video>
             </div>
 
-            
         </div>
     
     </div>
 
+    <!-- Contact Section -->
     <footer>
         <div>
             <p>All information is cited<a href="https://en.wikipedia.org/wiki/Whitney_Houston"> here.</a> I do 

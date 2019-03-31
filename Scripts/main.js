@@ -1,27 +1,23 @@
-// alert("Problem?");
-
 
 //Task Bar Nav
 function openTNav() {
-    document.getElementById("taskbar").style.width = "300px";
+  document.getElementById("taskbar").style.width = "300px";
 }
 
 function closeTNav() {
-    document.getElementById("taskbar").style.width = "0";
+  document.getElementById("taskbar").style.width = "0";
 }
 
 
 
 //Song Bar Nav
 function openSNav() {
-    document.getElementById("songbar").style.width = "300px";
+  document.getElementById("songbar").style.width = "300px";
 }
 
 function closeSNav() {
-    document.getElementById("songbar").style.width = "0";
+  document.getElementById("songbar").style.width = "0";
 }
-
-
 
 
 //Resize Function
